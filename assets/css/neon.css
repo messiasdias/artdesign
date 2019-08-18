@@ -6661,10 +6661,10 @@ p {
   background-position: top left; }
   @media screen and (min-width: 769px) {
     #contato {
-      background-image: url("assets/img/08.jpg"); } }
+      background-image: url("/assets/img/08.jpg") !important; } }
   @media screen and (max-width: 768px) {
     #contato {
-      background-image: url("assets/img/08-min.jpg"); } }
+      background-image: url("/assets/img/08-min.jpg") !important; } }
 
 #contato2 {
   background-color: black;
