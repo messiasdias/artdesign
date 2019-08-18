@@ -6656,7 +6656,15 @@ p {
   min-height: 200px; }
 
 #contato {
-  background-attachment: fixed; }
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: top left; }
+  @media screen and (min-width: 769px) {
+    #contato {
+      background-image: url("assets/img/08.jpg"); } }
+  @media screen and (max-width: 768px) {
+    #contato {
+      background-image: url("assets/img/08-min.jpg"); } }
 
 #contato2 {
   background-color: black;
