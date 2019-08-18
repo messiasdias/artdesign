@@ -4,6 +4,18 @@
 * Copyright 2014-2018 Pingendo (https://pingendo.com)
 */
 @import url("https://fonts.googleapis.com/css?family=Montserrat:200");
+@font-face {
+  font-family: "futuristi_fix.TTF";
+  src: url("fonts/futuristi_fix.TTF"); }
+
+@font-face {
+  font-family: "ants_valley.otf";
+  src: url("fonts/ants_valley.otf"); }
+
+@font-face {
+  font-family: "YesYesNo.ttf";
+  src: url("fonts/YesYesNo.ttf"); }
+
 /*!
  * Bootstrap v4.1.3 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors

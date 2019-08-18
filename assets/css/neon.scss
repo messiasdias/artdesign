@@ -5,6 +5,30 @@
 */
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:200');
+
+
+// My custom fonts
+
+$font1: "futuristi_fix.TTF";
+$font2: "ants_valley.otf";
+$font3: "YesYesNo.ttf";
+
+
+@font-face {
+  font-family: $font1;
+  src: url('fonts/#{$font1}');
+}
+
+
+@font-face {
+  font-family: $font2;
+  src: url('fonts/#{$font2}');
+}
+
+@font-face {
+  font-family: $font3;
+  src: url('fonts/#{$font3}');
+}
   
 // Options
 // 
@@ -341,7 +365,7 @@ $font3: "YesYesNo.ttf";
   }
   
   #a {
-    background-color: #f1cd31;
+    background-color: map-get($theme-colors,"primary");
     color: #FFFFFF !important;
   }
   
