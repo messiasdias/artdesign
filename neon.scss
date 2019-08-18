@@ -381,10 +381,26 @@ $font3: "YesYesNo.ttf";
 }
 
 
+#portfolio{
+		
+  & img{
+  	min-width: 300px;
+    min-height: 200px;
+  }
+  
+}
+
 #contato{
+	background-attachment: fixed;
+}
+
+#contato2{
 	background-color: rgba(0,0,0,1);
   opacity: 10 !important;
 }
+
+
+
 
 #footer{
  p{

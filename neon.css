@@ -6645,7 +6645,14 @@ mark.secondary {
 .display {
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2); }
 
+#portfolio img {
+  min-width: 300px;
+  min-height: 200px; }
+
 #contato {
+  background-attachment: fixed; }
+
+#contato2 {
   background-color: black;
   opacity: 10 !important; }
 
