@@ -6589,17 +6589,11 @@ mark.secondary {
     opacity: 0;
     left: 5%; }
 
-@font-face {
-  font-family: "futuristi_fix.TTF";
-  src: url("assets/css/fonts/futuristi_fix.TTF"); }
-
-@font-face {
-  font-family: "ants_valley.otf";
-  src: url("assets/css/fonts/ants_valley.otf"); }
-
-@font-face {
-  font-family: "YesYesNo.ttf";
-  src: url("assets/css/fonts/YesYesNo.ttf"); }
+p {
+  font-size: 1em; }
+  @media screen and (max-width: 768px) {
+    p {
+      font-size: .7em; } }
 
 #home {
   max-width: 100vw !important;

@@ -299,36 +299,14 @@ mark {
   }
 }
 
-.container {
-}
 
-.p-3 {
-}
+ p{
+  	font-size: 1em;
+     @media screen and (max-width:768px ) {
+  		font-size: .7em;
+    }
+  }
 
-.btn-primary {
-}
-
-
-$font1: "futuristi_fix.TTF";
-$font2: "ants_valley.otf";
-$font3: "YesYesNo.ttf";
-
-
-@font-face {
-  font-family: $font1;
-  src: url('assets/css/fonts/#{$font1}');
-}
-
-
-@font-face {
-  font-family: $font2;
-  src: url('assets/css/fonts/#{$font2}');
-}
-
-@font-face {
-  font-family: $font3;
-  src: url('assets/css/fonts/#{$font3}');
-}
 
 
  #home{
@@ -438,3 +416,7 @@ $font3: "YesYesNo.ttf";
   .icon{ max-width: 20px; }
   
 }
+
+
+
+
