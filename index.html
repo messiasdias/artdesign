@@ -41,7 +41,7 @@
     </div>
   </nav>
   <!-- Cover -->
-  <div class="d-flex align-items-center py-5 cover" style="background-image: url(&quot;assets/img/01.jpeg&quot;); background-position: left top; background-size: cover; background-repeat: no-repeat;" id="home">
+  <div class="d-flex align-items-center py-5 cover" style="	background-image: url(assets/img/03.jpg);	background-position: left top;	background-size: 100%;	background-repeat: no-repeat;" id="home">
     <!--  Video brackgroud -->
     <video autoplay="" class="bg-video" loop="">
       <source src="assets/img/v01.mp4" type="video/mp4"> Your browser does not support the video tag. </video>
@@ -65,8 +65,8 @@
         <div class="p-5 mx-auto mx-md-0 ml-md-auto col-12 col-sm-12 col-md-12 col-lg-12" style="">
           <p style="	text-shadow: 1px 1px 1px black;" class="">A Art Design é uma marcenaria especializada em projetos e fabricação de móveis planejados de alta qualidade nos segmentos corporativo e residencial. Nosso principal objetivo é a busca de inovação, qualidade e o melhor atendimento para transformar o seu sonho em realidade. Trabalhamos com móveis sob medida para cozinhas, dormitórios, closet, lavanderias, áreas de serviço, banheiros, home office, salas e ambientes corporativos.</p>
           <div class="row m-0">
-            <div class="col-12 col-lg-5 offset-lg-2"><a href="#portfolio" class="btn btn-outline-primary btn-sm btn-block m-1" contenteditable="true">Nosso Portifolio</a></div>
-            <div class="col-12 col-lg-2"><a class="btn btn-primary shadowed btn-sm m-1" href="#contato">Saiba Mais</a></div>
+            <div class="col-lg-5 offset-lg-2"><a href="#portfolio" class="btn btn-outline-primary btn-sm btn-block m-1">Nosso Portifolio</a></div>
+            <div class="col-lg-2"><a class="btn btn-primary shadowed btn-sm m-1" href="#contato">Saiba Mais</a></div>
           </div>
         </div>
       </div>
@@ -162,32 +162,55 @@
   </div>
   <div class="" style="" id="contato">
     <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1>
+            <i style="display:none;" class="fa fa-bullhorn"></i>
+          </h1>
+        </div>
+      </div>
       <div class="row" style="	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));	background-position: top left;	background-size: 100%;	background-repeat: repeat;">
         <div class="col-md-8 text-center mx-auto p-5">
-          <h3 class="text-primary display-4">eii.. você! Sim, você!</h3>
-          <h2 style="">Chega mais Perto!<br>Vamos Coversar ?</h2>
-          <a href="#" class="btn btn-block btn-lg text-decoration-none btn-success p-2 text-white">WhatsApp&nbsp; <i class="fa fa-whatsapp"></i> </a>
+          <h3 class="text-primary display-4 title-custom">
+            <cc id="a">eii.. você!</cc> &nbsp; <i class="fa fa-bullhorn"></i><br>
+            <cc id="b"> Sim, você!</cc>
+          </h3>
+          <h4 class="title-custom">Chega mais Perto!<br>
+            <cc id="b"> Vamos Coversar ?! </cc>
+          </h4>
+          <a href="#" class="btn btn-lg text-decoration-none btn-success p-2 text-white w-75">WhatsApp&nbsp; <i class="fa fa-whatsapp"></i>
+          </a><a href="#" class="btn btn-lg text-decoration-none btn-info p-2 text-white w-75 mt-2">Facebook&nbsp; <i class="fa fa-facebook"></i> </a>
+          <a href="#" class="btn btn-lg text-decoration-none p-2 w-75 my-2 btn-light text-muted">Instagram&nbsp; <i class="fa fa-instagram"></i> </a>
         </div>
       </div>
     </div>
   </div>
-  <footer class="text-md-left text-center p-4 contato" id="contato2" style="">
+  <footer class="text-md-left text-center p-4 contato" id="contato2" style="	background-image: linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,1));	background-position: top left;	background-size: 100%;	background-repeat: repeat;">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h4 class="text-center text-primary title-custom ">
+            <cc id="a">Entendi!!</cc> <br> Ainda é amante do <cc id="b">bom e velho email</cc> não é?&nbsp;<br>
+            <cc id="a">Ótimo! :)</cc><br>&nbsp;Também Adoramos!
+          </h4>
+          <h6 class="text-center w-75 mx-auto">Fique à vontade para deixar sua mensagem, teremos grande prazer em responder o mais breve possível.</h6>
+        </div>
+      </div>
+    </div>
     <div class="container">
       <div class="row">
         <div class="col-12 col-lg-6 offset-lg-3" style="">
-          <h3 class="text-center text-primary">Ainda é amante do bom e velho email não é?&nbsp;<br>Calma! :)<br>&nbsp;Nós também Usamos!</h3>
-          <h6 class="text-center">Fique à vontade para deixar sua mensagem, teremos o prazer de responder o mais rápido possível.</h6>
-          <form>
+          <form action="#" method="post">
             <fieldset class="form-group my-3">
-              <input type="text" class="form-control form-control-sm" id="Input Nome" placeholder="Nome" name="nome">
-              <div class="form-group"><input type="email" class="form-control form-control-sm mt-2 mb-2" id="Input Email" placeholder="Email" name="email"></div>
+              <input type="text" class="form-control form-control-sm" id="Input Nome" placeholder="Seu Nome" name="nome" required="">
+              <div class="form-group"><input type="email" class="form-control form-control-sm mt-2 mb-2" id="Input Email" placeholder="Seu Email" name="email" required=""></div>
             </fieldset>
             <fieldset class="form-group my-3">
-              <textarea class="form-control h-25 form-control-sm" id="Input Message" placeholder="Message" name="message"></textarea>
+              <textarea class="form-control h-25 form-control-sm" id="Input Message" placeholder="Sua Mensagem Aqui!" name="message" required=""></textarea>
             </fieldset>
             <fieldset class="form-group row">
-              <div class="col-lg-12">
-                <button type="submit" class="btn btn-outline-primary mt-2">Enviar<br></button>
+              <div class="col-lg-12 text-center">
+                <button type="submit" class="btn btn-lg text-decoration-none p-2 w-75 my-2 mt-2 btn-primary text-dark">Enviar Email &nbsp;<i class="fa fa-paper-plane"></i> </button>
               </div>
             </fieldset>
           </form>
